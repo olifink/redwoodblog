@@ -48,3 +48,13 @@ input.error, textarea.error {
 .flex-between button {
   display: inline;
 }
+
+@media (prefers-color-scheme: dark) {
+body {
+  background-color: black;
+  color: aquamarine;
+}
+h1 > a, a {
+  color: bisque;
+}
+}
